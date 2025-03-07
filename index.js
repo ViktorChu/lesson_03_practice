@@ -1,9 +1,12 @@
-const counterAdd = document.querySelector("#counter");
-const plusButton = document.querySelector("#button-plus");
+const buttonMinus = document.querySelector("#button-minus");
+const resultBlock = document.querySelector("#result");
 
-let counter = 0;
+let number = 0;
+resultBlock.textContent = number;
 
-plusButton.addEventListener("click", () => {
-  counter++;
-  counterAdd.textContent = counter;
-});
+const counterMinus = () => {
+  number--;
+  resultBlock.textContent = number;
+};
+
+buttonMinus.addEventListener("click", counterMinus);
