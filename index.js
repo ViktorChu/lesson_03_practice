@@ -6,5 +6,5 @@ let counter = 0;
 plusButton.addEventListener("click", () => {
   counter++;
   counterAdd.textContent = counter;
-  
+
 });
