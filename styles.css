@@ -27,8 +27,9 @@ li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 550px;
+  height: 86.5%;
   font-weight: 400;
+  margin-top: auto;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   background:rgb(232, 240, 176);
@@ -46,6 +47,12 @@ header {
   font-size: 24px;
 }
 
+#counter {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 #result {
   display: flex;
   justify-content: center;
@@ -54,7 +61,7 @@ header {
   font-weight: bold;
   margin-bottom: 30px;
   color: rgb(49, 67, 54);
-  height: 200px;
+  height: 150px;
   width: 650px;
   background: linear-gradient(rgb(209, 239, 217),rgb(163, 206, 175),rgb(122, 161, 133),rgb(99, 133, 108),rgb(91, 122, 99));
   text-align: center;
